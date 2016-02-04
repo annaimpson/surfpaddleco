@@ -1,0 +1,73 @@
+body {
+  height: 534px;
+  width: 1329px;
+}
+header {
+  background:url("wave-01.jpg") no-repeat center fixed;
+  height: 523px;
+}
+
+* {
+  -webkit-background-size:cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  }
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-weight: lighter;
+  font-size: 400%;
+  text-align: center;
+  margin-top: 300px;
+  margin-bottom: 8px;
+
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  color: rgba(7, 51, 81, 1);
+  font-weight: bold;
+  padding-top: 12px;
+  padding-left: 97px;
+  display: inline-block;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(7, 51, 81, 1);
+  font-weight: normal;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 9px;
+}
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(7, 51, 81, 1);
+  font-weight: bold;
+  text-align: right;
+  font-weight: bold;
+}
+li {
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(7, 51, 81, 1);
+  font-weight: bold;
+  list-style: none;
+  text-align: right;
+  list-style: none;
+  display: inline;
+  float: right;
+  padding-top: 12px;
+  display: inline-block;
+}
+
+.nav-link a {
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(7, 51, 81, 1);
+  font-weight: bold;
+  padding-right: 82px;
+  padding-left: 7px;
+}
