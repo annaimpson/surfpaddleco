@@ -1,15 +1,38 @@
 body {
   height: 534px;
   width: 1329px;
-
-
 }
 header {
-  background:url("https://images.unsplash.com/photo-1452723312111-3a7d0db0e024?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=774e99d16e3f3f0e4138be9d98e4f0f9") no-repeat center fixed;
+  background:url("https://images.unsplash.com/photo-1452723312111-3a7d0db0e024?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=774e99d16e3f3f0e4138be9d98e4f0f9") center center;
+  background-size: cover;
   height: 523px;
+  position: relative;
+}
 
+img {
+  margin-left: 2px;
+  margin-top: 10px;
+  color: rgba(7, 52, 84, 1);
+  display: inline-block;
+  position: relative;
+  right: 28px;
+  top: -3px;
 }
+
+/*img::after{
+  content:""
+  display: block;
+}*/
+
+header .overlay {
+  position: absolute;
+  background: rgba(25, 111, 179, .7);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
+
 * {
   -webkit-background-size:cover;
   -moz-background-size: cover;
@@ -17,67 +40,99 @@ header {
   }
 
 h1 {
+  height: 74px;
+  width: 999px;
   font-family: 'Open Sans', sans-serif;
   color: white;
   font-weight: normal;
   font-size: 100px;
-  text-align: center;
-  margin-top: 109px;
-  margin-bottom: 8px;
+  letter-spacing: -1.5px;
+  margin-top: 75px;
+  margin-left: 170px;
   text-shadow: 1px 1px black;
+  position: relative;
+  bottom: -14px;
+  left: 16px;
+  display: block;
 
+}
+
+.logo {
+  position: relative;
+  /*left: -40px;*/
+  bottom: 10px;
+  display: inline-block;
+  float: left;
+}
+
+nav {
+  max-width: 1018px;
+  margin: 0 auto;
+}
+
+nav::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 h3 {
   font-family: 'Open Sans', sans-serif;
-  color: rgba(7, 51, 81, 1);
+  color: rgba(7, 52, 84, 1);
   font-weight: bold;
-  padding-top: 12px;
-  padding-left: 97px;
-  font-size: 13px;
+  font-size: 15px;
+  letter-spacing: .3px;
+  position: relative;
+  right:25px;
+  bottom: 23px;
   display: inline-block;
 }
 
 h4 {
-  font-family: 'Oswald', sans-serif;
-  color: rgba(7, 51, 81, 1);
-  font-weight: normal;
-  text-align: center;
-  font-weight: bold;
-  margin-top: 8px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(7, 52, 84, 1);
+  font-weight: bolder;
+  font-size: 13px;
+  letter-spacing: 1.1px;
+  margin-left: 485px;
+  margin-top: -6px;
+  position: relative;
+  bottom: -10px
+  right: -3px
 }
 
-h5 {
-  font-family: 'Oswald', sans-serif;
-  color: rgba(7, 51, 81, 1);
-  font-weight: bold;
-  text-align: right;
-  font-weight: bold;
-}
 ul {
   display: inline-block;
   float: right;
-  margin-right: 82px;
+  margin-right: 73px;
 }
 li {
   font-family: 'Oswald', sans-serif;
-  color: rgba(7, 51, 81, 1);
+  color: rgba(7, 52, 84, 1);
   font-weight: bold;
-  font-size: 13px;
+  font-size: 18px;
+  letter-spacing: .5px;
   list-style: none;
   text-align: right;
   list-style: none;
-  display: inline;
   float: right;
-  padding-top: 12px;
+  margin-top: 21px;
   display: inline-block;
+  position: relative;
+  top: -27px;
+  right: -28px;
 }
 
 .nav-link a {
   text-decoration: none;
   list-style: none;
   font-family: 'Oswald', sans-serif;
-  color: rgba(7, 51, 81, 1);
+  color: rgba(7, 52, 84, 1);
   font-weight: bold;
-  padding-right: 9px;
+  margin-top: 16px;
+  margin-right: 10px;
+  display: inline-block;
+  position: relative;
+  right: -5px;
+  bottom: 16px;
 }
