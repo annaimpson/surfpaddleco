@@ -16,13 +16,9 @@ img {
   display: inline-block;
   position: relative;
   right: 28px;
-  top: -3px;
+  top: -9px;
 }
 
-/*img::after{
-  content:""
-  display: block;
-}*/
 
 header .overlay {
   position: absolute;
@@ -39,7 +35,7 @@ header .overlay {
   -o-background-size: cover;
   }
 
-h1 {
+h1.title {
   height: 74px;
   width: 999px;
   font-family: 'Open Sans', sans-serif;
@@ -47,7 +43,7 @@ h1 {
   font-weight: normal;
   font-size: 100px;
   letter-spacing: -1.5px;
-  margin-top: 75px;
+  margin-top: 80px;
   margin-left: 170px;
   text-shadow: 1px 1px black;
   position: relative;
@@ -64,7 +60,6 @@ h1 {
   display: inline-block;
   float: left;
 }
-
 nav {
   max-width: 1018px;
   margin: 0 auto;
@@ -76,7 +71,7 @@ nav::after {
   clear: both;
 }
 
-h3 {
+h3.blog {
   font-family: 'Open Sans', sans-serif;
   color: rgba(7, 52, 84, 1);
   font-weight: bold;
@@ -84,29 +79,29 @@ h3 {
   letter-spacing: .3px;
   position: relative;
   right:25px;
-  bottom: 23px;
+  bottom: 32px;
   display: inline-block;
 }
 
-h4 {
+h4.sub-title {
   font-family: 'Open Sans', sans-serif;
   color: rgba(7, 52, 84, 1);
   font-weight: bolder;
   font-size: 13px;
   letter-spacing: 1.1px;
-  margin-left: 485px;
+  margin-left: 488px;
   margin-top: -6px;
   position: relative;
   bottom: -10px
   right: -3px
 }
 
-ul {
+#search-about ul.about-search {
   display: inline-block;
   float: right;
   margin-right: 73px;
 }
-li {
+#search-about li {
   font-family: 'Oswald', sans-serif;
   color: rgba(7, 52, 84, 1);
   font-weight: bold;
@@ -123,7 +118,7 @@ li {
   right: -28px;
 }
 
-.nav-link a {
+#search-about .nav-link a {
   text-decoration: none;
   list-style: none;
   font-family: 'Oswald', sans-serif;
@@ -135,4 +130,438 @@ li {
   position: relative;
   right: -5px;
   bottom: 16px;
+}
+.search-icon {
+  float: right;
+  position: relative;
+  left: 45px;
+  top: -2px;
+}
+.about {
+  position: relative;
+  top: 6px;
+  right: 76px;
+}
+.search {
+  position: relative;
+  top: 6px;
+  right: 97px;
+}
+
+
+
+main .left-content {
+  display: inline-block;
+  margin-left: 155px;
+  width: 570px;
+  padding-right: 20px;
+}
+
+main .right-content {
+  display: inline-block;
+  width: 225px;
+  padding-left: -8px;
+}
+
+h1.headline {
+  font-family: 'Oswald', sans-serif;
+  font-size: 61px;
+  letter-spacing: .2px;
+  line-height: 75px;
+  color: rgba(7, 52, 84, 1);
+  display: inline-block;
+}
+span.name {
+  color: rgba(7, 52, 84, 1);
+  position: relative;
+  top: -8px;
+  left:-23px;
+}
+span.on {
+  color: grey;
+  position: relative;
+  right: 12px;
+  top: -6px;
+}
+span.when {
+  color: grey;
+  text-decoration: underline;
+  position: relative;
+  left: -13px;
+  top: -7px;
+}
+h1.blogauthor {
+  float: left;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+h6.author {
+  font-family:'Open Sans', sans-serif;
+  font-size: 13px;
+  position: relative;
+  left: 56px;
+  top: -56px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14.9px;
+  line-height: 1.86;
+  color: slategrey;
+  position: relative;
+  bottom: 125px;
+  text-align: left;
+  margin-right: -65px;
+}
+.para2 {
+  position: relative;
+  bottom: 20px;
+}
+.para3 {
+  position: relative;
+  bottom: 86px;
+}
+.para3-end {
+  position: relative;
+  bottom: 83px;
+}
+.para4 {
+  position: relative;
+  bottom: 92px;
+}
+p .mixtape {
+  text-decoration: underline;
+  color: darkgrey;
+  position: relative;
+  bottom: 20px;
+}
+.beforeex {
+  line-height: 10px;
+}
+.exclamation {
+  display: inline-block;
+  position: relative;
+  font-size: 28px;
+  color: rgba(25, 111, 179, 1);
+  line-height: 10px;
+  margin-left: 18px;
+  bottom: -16px;
+  right: 10px;
+}
+.middle-border {
+  display: inline-block;
+  border: solid 2px;
+  height: 54px;
+  border-color: lightgrey;
+  border-bottom: 42px;
+  border-top: 42px;
+  border-right: 42px;
+  position: relative;
+  right: -4px;
+  bottom: 55px;
+}
+p .rollover {
+  color: blue;
+  text-decoration: underline;
+  position: relative;
+  bottom: 86px;
+}
+
+ul .comments {
+  list-style: none;
+  font-family:'Open Sans', sans-serif;
+  font-size: 14px;
+  color: white;
+  display: inline-block;
+  position: relative;
+  bottom: 76px;
+}
+ul .li1 {
+  display: inline-block;
+  position: relative;
+  width: 175px;
+  height: 44px;
+  bottom: -8px;
+  right: -47px;
+}
+.read-c {
+  display: inline-block;
+  position: relative;
+  border: solid 1px;
+  border-color: none;
+  background-color: rgba(163, 178, 192, 1);
+  width: 169px;
+  height: 34px;
+  bottom: 139px;
+  right: 44px;
+}
+ul .li2 {
+  display: inline-block;
+  position: relative;
+  right: -54px;
+  bottom: -7px;
+
+}
+.read-l {
+  display: inline-block;
+  position: relative;
+  border: solid 1px;
+  border-color: none;
+  background-color: rgba(163, 178, 192, 1);
+  width: 132px;
+  height: 34px;
+  position: relative;
+  bottom: 139px;
+  right: 22px;
+}
+ul .li3 {
+  display: inline-block;
+  position: relative;
+  right: -45px;
+  bottom: -8px;
+}
+.share{
+  display: inline-block;
+  position: relative;
+  border: solid 1px;
+  border-color: none;
+  background-color: rgba(25, 111, 179, 1);
+  width: 158px;
+  height: 34px;
+  position: relative;
+  bottom: 142px;
+  right: -3px;
+}
+
+
+.profile-author {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: rgba(25, 111, 179, 1);
+  position: relative;
+  top: -218px;
+  left: 198px;
+}
+
+ul .profile-social {
+  list-style: none;
+  font-size: 14.3px;
+  display: inline-block;
+  color: grey;
+  position: relative;
+  top: -89px;
+  right: -2px;
+}
+
+li .twitter {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  bottom: 152px;
+  left: 105px;
+}
+li .facebook {
+  position: relative;
+  bottom: 168px;
+  left: 166px;
+}
+li .instagram {
+  position: relative;
+  top: -185px;
+  left: 245px;
+}
+.ad-box {
+  display: inline-block;
+}
+h6 .about {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: grey;
+  text-decoration: underline;
+  position: relative;
+  top: -270px;
+  left: 296px;
+}
+
+h4 .sidebar-sec {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  color: rgba(25, 111, 179, 1);
+  position: relative;
+  bottom: 270px;
+  left: 104px;
+}
+
+p .sidebar-para {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.8px;
+  color: grey;
+  position: relative;
+  bottom: 167px;
+  right: -104px;
+
+}
+
+#smallprofile {
+  height: 22px;
+  width: 22px;
+  border-radius: 11px;
+  position: relative;
+  left: 1px;
+  top: -128px;
+}
+
+#largeprofile {
+  height: 81px;
+  width: 81px;
+  border-radius: 41px;
+  position: relative;
+  top: -205px;
+  left: 201px;
+}
+
+#action-photo {
+  height: 300px;
+  width: 278px;
+  position: relative;
+  top: -246px;
+  left: 101px;
+}
+#bottom-surf {
+  display: inline-block;
+  width: 349px;
+  height:332px;
+  margin-left: -5px;
+  postition: relative;
+  top: -203px;
+}
+#bottom-drink {
+  display: inline-block;
+  width: 328px;
+  height: 332px;
+  margin-left: -5px;
+  position: relative;
+  top: -203px;
+}
+#bottom-person {
+  display: inline-block;
+  width: 324px;
+  height: 332px;
+  margin-left: -5px;
+  position: relative;
+  top: -203px;
+}
+#bottom-bottles {
+  display: inline-block;
+  width: 327px;
+  height: 332px;
+  margin-left: -5px;
+  position: relative;
+  top: -203px;
+}
+#tiy-logo {
+  display: inline-block;
+  color: grey;
+  width: 70px;
+  height: 70px;
+  margin-left: 159px;
+  position: relative;
+  top: 1px;
+  left: -8px;
+}
+
+
+
+.popular {
+  display: block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 61px;
+  letter-spacing: 1.2px;
+  color: rgba(7, 52, 84, 1);
+  position: relative;
+  left: 356px;
+  bottom: 179px;
+
+}
+
+ul .picture-text {
+  list-style: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  color: white;
+}
+.bottom-li1 {
+  position: relative;
+  bottom: 279px;
+  left: -38px;
+}
+.bottom-li2 {
+  position: relative;
+  bottom: 322px;
+  left: 294px;
+}
+.bottom-li3 {
+  position: relative;
+  bottom: 406px;
+  left: 619px;
+}
+.bottom-li4 {
+  position: relative;
+  bottom: 457px;
+  left: 947px;
+}
+
+
+h6 .copyright {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: grey;
+  margin-left: 212px;
+  position: relative;
+  bottom: 72px;
+  right: -13px;
+
+}
+
+.bottom-background {
+  display: inline-block;
+  border: solid 0px;
+  border-color: none;
+  background-color: rgba( 7, 52, 85, 1);
+  width: 1302px;
+  height: 100px;
+  position: relative;
+  bottom: 465px;
+  left: -10px;
+}
+ul .nav-items {
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  color: slategrey;
+  font-size: 14px;
+  position: relative;
+  bottom: 92px;
+  left: 981px;
+}
+li .nav1 {
+  position: relative;
+  right: 212px;
+  bottom: 26px;
+}
+li .nav2 {
+  position: relative;
+  right: 114px;
+  bottom: 45px;
+}
+li .nav3 {
+  position: relative;
+  right: 11px;
+  bottom: 63px;
+}
+li .nav5 {
+  position: relative;
+  left: 91px;
+  top: -81px;
 }
